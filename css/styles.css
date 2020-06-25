@@ -1,0 +1,68 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #296498;
+}
+
+h2 {
+    color: #1c4966;
+}
+
+h3, th {
+    color: #0e2433;
+}
+
+th {
+    margin-bottom: 10px;
+}
+
+.download {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.dl-text {
+    font-size: 10px;
+}
+
+ul {
+    margin: 0.75em 0;
+    padding: 0 1em;
+    list-style-type: none;
+    border: 1px solid rgba(35, 91, 127);
+    border: 1px solid rgba(69, 182, 254, .5);
+}
+
+li {
+    list-style: none;
+    padding: 0 0 0 30px;
+}
+
+#youtube {
+    background-image: url("../images/youtube-logo.png");
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-position-x: -3px;
+}
+
+#twitter {
+    background-image: url("../images/twitter-logo.png");
+    background-size: 15px;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#twitch {
+    background-image: url("../images/twitch-logo.png");
+    background-size: 15px;
+    background-repeat: no-repeat;
+    background-position: left;
+}
