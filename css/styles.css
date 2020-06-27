@@ -1,48 +1,83 @@
 html {
     font-family: Arial, Helvetica, sans-serif;
-    margin-top: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-bottom: 20px;
+}
+
+h1, h2, h3, .closer, .download, .nav-grid, #saying {
+    text-align: center;
 }
 
 h1 {
     color: #296498;
+    font-size: 1.5em;
+    padding: 10px 0 10px 0;
+    margin: 0px
+}
+
+.header-grid {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 120px 60px;
+}
+
+#saying {
+    font-size: 14px;
+    font-style: italic;
+    margin: 10px 0 30px 0;
+    text-align: center;
 }
 
 h2 {
     color: #1c4966;
+    font-size: 1.10em;
 }
 
-h3, th {
+h3 {
     color: #0e2433;
+    font-size: 1.07em;
 }
 
 th {
+    color: #0e2433;
     margin-bottom: 10px;
 }
 
 .download {
     margin-top: 5px;
     margin-bottom: 5px;
-    text-align: center;
 }
 
 .dl-text {
     font-size: 10px;
 }
 
-ul {
-    margin: 0.75em 0;
-    padding: 0 1em;
-    list-style-type: none;
-    border: 1px solid rgba(35, 91, 127);
-    border: 1px solid rgba(69, 182, 254, .5);
+table {
+    margin-left: auto;
+    margin-right: auto;
 }
 
-li {
-    list-style: none;
-    padding: 0 0 0 30px;
+.nav-grid {
+    display: grid;
+    padding: 5px 0 5px 0;
+    grid-template-columns: 150px 150px;
+    justify-content: center;
+    background-color: #1c4a7e;
+}
+
+.nav-item a {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: white;
+    text-decoration-color: #eeeeee;
+    letter-spacing: 0.5px;
+}
+
+ul#social-list {
+    list-style-type: none;
+}
+
+ul#social-list li {
+    padding-left: 30px;
 }
 
 #youtube {
