@@ -1,0 +1,85 @@
+/* GAME CORNER */
+
+/* Body */
+
+div.grid-flow {
+    display: inline-grid;
+    grid-column-gap: 20px;
+    grid-template-columns: auto 250px;
+    margin: 0 120px 0 120px;
+}
+
+/* Table */
+
+table, th, td {
+    border: 1px solid white;
+    background-color: #eeeeee;
+}
+
+table {
+    padding: 2px;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+caption {
+    font-size: 12px;
+    font-style: italic;
+}
+
+th {
+    padding: 5px;
+    background-color: #296d98;
+    color: #ffffff;
+}
+
+td {
+    padding: 3px 20px 3px 20px;
+}
+
+tr:nth-child(even) > * {
+    background-color: #dde7ee;
+}
+
+tfoot tr td {
+    font-size: 12px;
+    background-color: #296d98;
+    color: white;
+}
+
+#user {
+    text-transform: uppercase;
+    color: #eeeeee;
+    letter-spacing: 0.5px;
+}
+
+/* Sounds */
+
+.banner {
+    font-size: 16px;
+    padding: 3px 0 3px 0;
+    vertical-align: center;
+    color: white;
+    font-weight: normal;
+    letter-spacing: 0.5px;
+    background-color: #296d98;
+    margin: 8px 0 5px 0;
+}
+
+div.overflow {
+    height: 300px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    border-bottom: 2px solid #296d98;
+}
+
+.overflow p {
+    font-size: 14px;
+    margin: 0.5em 0 0.5em 0;
+}
+
+audio {
+    width: 200px;
+    margin-bottom: 8px;
+}

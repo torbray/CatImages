@@ -14,14 +14,15 @@
       </div>
       <nav>
         <div class="nav-grid">
-          <div class="nav-item"><a href="index.html">Homepage</a></div>
-          <div class="nav-item"><a href="page2.html">Steam Stats</a></div>
+          <div class="page-focus">Homepage</div>
+          <div><a href="page2.html">Game Corner</a></div>
         </div>
         <div id="saying">"What's chilling, dudes?"</div>
       </nav>
     </header>
+    <div class="sidebar">
       <nav>
-        <h2>Navigation Sequence</h2>
+        <h2>Navigation</h2>
         <div class="blue-border">
           <ul>
             <li><a href="#gifs">Cat Gifs</a></li>
@@ -31,47 +32,53 @@
       </nav>
       <section id="gifs">
         <h2>Cat Gifs</h2>
-        <table>
-          <tr>
-            <th>Cat/Shaq Showdown</th>
-            <th>Cat/Man Highfive</th>
-            <th>Marble Cake</th>
-          </tr>
-          <tr>
-            <td class="download"><a class="dl-text" href="images/catshaq.gif" download>Download</a></td>
-            <td class="download"><a class="dl-text"href="images/cm47cat.gif" download>Download</a></td>
-            <td class="download"><a class="dl-text" href="marble-cake.jpeg" download>Download</a></td>
-          </tr>
-          <tr>
-            <td>
-              <img src="images/catshaq.gif" width=200
-                  alt="Cat Shaking Hindquarters, Cutting to Shaq Shaking Shoulders"
-                  title="Cat/Shaq Showdown">
-            </td>
-            <td>
-              <img src="images/cm47cat.gif" width=200
-                  alt="CM47 Receiving Highfive from Snowflake"
-                  title="Cat/Man Beautiful Highfive">
-            </td>
-            <td>
-              <img src="images/marble-cake.jpeg" width=200
-                  alt="Marble Cake"
-                  title="Marble Cake">
-            </td>
-          </tr>
-        </table>
+        <div class="cat-gifs">
+          <figure>
+            <figcaption>Cat/Shaq Showdown</figcaption>
+            <div class="border-bot"></div>
+            <img src="images/catshaq.gif" width=200
+            alt="Cat shaking hindquarters, gif cuts to Shaq shaking shoulders"
+            title="Cat/Shaq Showdown">
+          </figure>
+          <figure>
+            <figcaption>Cat/Man Highfive</figcaption>
+            <div class="border-bot"></div>
+            <img src="images/cm47cat.gif" width=200
+            alt="A man in a green shirt is walking, receives a high-five from a black cat"
+            title="Cat/Man Beautiful Highfive">
+          </figure>
+          <figure>
+            <figcaption>Marble Cake</figcaption>
+            <div class="border-bot"></div>
+            <img src="images/marble-cake.jpeg" width=200
+            alt="A cross-section of marble cake, showing wavy lines of chocolate"
+            title="Marble Cake">
+          </figure>
+        </div>
       </section>
-    <footer id="social">
-      <h2>Social Media</h2>
-      <ul id="social-list">
-        <li id="youtube">YouTube - <a href="https://youtube.com/torbray00" target="_blank">torbray00</a></li>
-        <li id="twitter"> Twitter - <a href="https://twitter.com/torbray00" target="_blank">@torbray00</a></li>
-        <li id="twitch"> Twitch - <a href="https://twitch.com/torbray00" target="_blank">torbray00</a></li>
-      </ul>
-      <p class="closer">
-        For all business enquiries, email me at
-          <a href="mailto:torbray@gmail.com?Subject=Cat Feedback">torbray@gmail.com</a>
-      </p>
-    </footer>
+      <footer id="social">
+        <h2>Social Media</h2>
+        <div class="social-list">
+          <div>
+            <div>
+              <img src="images/youtube-logo.png" height=18px alt="YouTube logo">
+              <a href="https://youtube.com/torbray00" target="_blank">torbray00</a>
+            </div>
+            <div>
+              <img src="images/twitter-logo.png" height=18px alt="Twitter logo">
+              <a href="https://twitter.com/torbray00" target="_blank">@torbray00</a>
+            </div>
+            <div>
+              <img src="images/twitch-logo.png" height=18px alt="Twitch logo">
+              <a href="https://twitch.com/torbray00" target="_blank">torbray00</a>
+            </div>
+          </div>
+          <p class="closer">
+            For all business enquiries, email me at
+            <a href="mailto:torbray@gmail.com?Subject=Feedback">torbray@gmail.com</a>
+          </p>
+        </div>
+      </footer>
+    </div>
   </body>
 </html>

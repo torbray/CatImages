@@ -5,26 +5,127 @@
     <meta name="viewpoint" content="width=device-width">
     <title>Cornerstone - Images Site</title>
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/page2.css">
   </head>
   <body>
-    <header>
-      <h1>torbray's Profile Page - Pg 2</h1>
-      <nav>
+  <header>
+    <div class="header-grid">
+      <h1>torbray</h1>
+      <img src="images/profpic.png" width=60>
+    </div>
+    <nav>
+      <div class="nav-grid">
         <div><a href="index.html">Homepage</a></div>
-        <div><a href="page2.html">Page 2</a></div>
-      </nav>
-    </header>
-    <footer id="social">
-      <h2>Social Media</h2>
-      <ul id="social-list">
-        <li id="youtube">YouTube - <a href="https://youtube.com/torbray00" target="_blank">torbray00</a></li>
-        <li id="twitter"> Twitter - <a href="https://twitter.com/torbray00" target="_blank">@torbray00</a></li>
-        <li id="twitch"> Twitch - <a href="https://twitch.com/torbray00" target="_blank">torbray00</a></li>
-      </ul>
-      <p>
+        <div class="page-focus">Game Corner</div>
+      </div>
+      <div id="saying">"What's chilling, dudes?"</div>
+    </nav>
+  </header>
+  <div class="grid-flow">
+    <table>
+        <caption>
+            <p>torbray's Most Played Games on Steam as of 28/06/2020</p>
+        </caption>
+        <thead>
+            <tr>
+                <th>Game</th>
+                <th>Hours</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Mount & Blade: Warband</td>
+                <td>567</td>
+            </tr>
+            <tr>
+                <td>The Sims(TM) 3</td>
+                <td>375</td>
+            </tr>
+            <tr>
+                <td>Crusader Kings II</td>
+                <td>301</td>
+            </tr>
+            <tr>
+                <td>Spelunky</td>
+                <td>210</td>
+            </tr>
+            <tr>
+                <td>PAYDAY 2</td>
+                <td>106</td>
+            </tr>
+            <tr>
+                <td>Rocket League</td>
+                <td>84</td>
+            </tr>
+            <tr>
+                <td>The Elder Scrolls V: Skyrim Special Edition</td>
+                <td>81</td>
+            </tr>
+            <tr>
+                <td>Prison Architect</td>
+                <td>36</td>
+            </tr>
+            <tr>
+                <td>Mount & Blade II: Bannerlord</td>
+                <td>33</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan=2>Steam User: 
+                    <span id="user" href="">torbray00</span>
+                </td>
+            </tr>
+        </tfoot>
+    </table>
+    <div>
+        <h2 class="banner">Minecraft Sounds</h2>
+        <div class="overflow">
+            <p>cat/meow1.ogg</p>
+            <audio controls>
+                <source src="sounds/cat_meow1.ogg" type="audio/ogg">
+                Your browser does not support this file
+            </audio>
+            <p>chicken/hurt1.ogg</p>
+            <audio controls>
+                <source src="sounds/chicken_hurt1.ogg" type="audio/ogg">
+                Your browser does not support this file
+            </audio>
+            <p>enderdragon/end.ogg</p>
+            <audio controls>
+                <source src="sounds/enderdragon_end.ogg" type="audio/ogg">
+                Your browser does not support this file
+            </audio>
+            <p>horse/death.ogg</p>
+            <audio controls>
+                <source src="sounds/horse_death.ogg" type="audio/ogg">
+                Your browser does not support this file
+            </audio>
+        </div>
+    </div>
+  </div>
+  <footer id="social">
+    <h2>Social Media</h2>
+    <div class="social-list">
+      <div>
+        <div>
+          <img src="images/youtube-logo.png" height=18px alt="YouTube logo">
+          <a href="https://youtube.com/torbray00" target="_blank">torbray00</a>
+        </div>
+        <div>
+          <img src="images/twitter-logo.png" height=18px alt="Twitter logo">
+          <a href="https://twitter.com/torbray00" target="_blank">@torbray00</a>
+        </div>
+        <div>
+          <img src="images/twitch-logo.png" height=18px alt="Twitch logo">
+          <a href="https://twitch.com/torbray00" target="_blank">torbray00</a>
+        </div>
+      </div>
+      <p class="closer">
         For all business enquiries, email me at
-          <a href="mailto:torbray@gmail.com?Subject=Cat Feedback">torbray@gmail.com</a>
+        <a href="mailto:torbray@gmail.com?Subject=Feedback">torbray@gmail.com</a>
       </p>
-    </footer>
+    </div>
+  </footer>
   </body>
 </html>

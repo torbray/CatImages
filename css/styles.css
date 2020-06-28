@@ -1,10 +1,44 @@
+/* Blue Colour Palette
+https://colorswall.com/palette/1321/
+
+Light
+#45b6fe
+#3792cb
+#296d98
+#1c4966
+#0e2433
+Dark
+*/
+
+/* Globals */
+
 html {
     font-family: Arial, Helvetica, sans-serif;
-}
-
-h1, h2, h3, .closer, .download, .nav-grid, #saying {
     text-align: center;
 }
+
+li {
+    text-align: left;
+}
+
+h2 {
+    color: #1c4966;
+    font-size: 1.10em;
+    margin: 20px 0 5px 0;
+}
+
+h3 {
+    color: #0e2433;
+    font-size: 1.07em;
+}
+
+a {
+    color: #222222;
+    font-variant: small-caps;
+    text-decoration: none;
+}
+
+/* Header */
 
 h1 {
     color: #296498;
@@ -20,42 +54,6 @@ h1 {
     grid-template-columns: 120px 60px;
 }
 
-#saying {
-    font-size: 14px;
-    font-style: italic;
-    margin: 10px 0 30px 0;
-    text-align: center;
-}
-
-h2 {
-    color: #1c4966;
-    font-size: 1.10em;
-}
-
-h3 {
-    color: #0e2433;
-    font-size: 1.07em;
-}
-
-th {
-    color: #0e2433;
-    margin-bottom: 10px;
-}
-
-.download {
-    margin-top: 5px;
-    margin-bottom: 5px;
-}
-
-.dl-text {
-    font-size: 10px;
-}
-
-table {
-    margin-left: auto;
-    margin-right: auto;
-}
-
 .nav-grid {
     display: grid;
     padding: 5px 0 5px 0;
@@ -64,40 +62,110 @@ table {
     background-color: #1c4a7e;
 }
 
-.nav-item a {
+.nav-grid * {
     font-size: 14px;
     text-transform: uppercase;
     color: white;
-    text-decoration-color: #eeeeee;
     letter-spacing: 0.5px;
+    text-decoration-color: #dddddd;
 }
 
-ul#social-list {
+.page-focus {
+    font-weight: bold;
+    color: #eeeeee;
+}
+
+#saying {
+    font-size: 14px;
+    font-style: italic;
+    margin: 10px 0 30px 0;
+    text-align: center;
+}
+
+/* Sidebar - Navigation */
+
+.sidebar {
+    display: inline-grid;
+    grid-template-columns: auto auto;
+}
+
+.sidebar nav{
+    background-color: #eeeeee;
+    border: 2px solid #296d98;
+    border-left: 0;
+    border-right: 0;
+    padding-right: 20px;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    overflow: hidden;
+}
+
+.sidebar nav h2{
+    overflow: hidden;
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+.sidebar li{
     list-style-type: none;
+    text-indent: -25px;
+    font-size: 14px;
 }
 
-ul#social-list li {
-    padding-left: 30px;
+.sidebar li:before{
+    content: "-";
+    color: #222222;
+    margin-right: 10px;
 }
 
-#youtube {
-    background-image: url("../images/youtube-logo.png");
-    background-size: 20px;
-    background-repeat: no-repeat;
-    background-position: left;
-    background-position-x: -3px;
+/* Cat Gifs */
+
+.cat-gifs {
+    display: inline-grid;
+    grid-template-columns: 240px 240px 240px;
+    justify-content: center;
+    margin: 0 10px;
 }
 
-#twitter {
-    background-image: url("../images/twitter-logo.png");
-    background-size: 15px;
-    background-repeat: no-repeat;
-    background-position: left;
+figcaption {
+    color: #0e2433;
+    font-size: 16px;
+    margin-bottom: 10px;
 }
 
-#twitch {
-    background-image: url("../images/twitch-logo.png");
-    background-size: 15px;
-    background-repeat: no-repeat;
-    background-position: left;
+.border-bot {
+    border-bottom: 1px solid #296d98;
+    margin: auto;
+    margin-bottom: 5px;
+    width: 40%;
+}
+
+figure img {
+    margin-left: -20px;
+}
+
+/* Social Media */
+
+footer {
+    margin-top: 30px;
+}
+
+.social-list {
+    display: inline-grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    column-gap: 50px;
+}
+
+.social-list div * {
+    vertical-align: middle;
+    text-align: left;
+}
+
+.social-list img {
+    margin: -2px 5px 0 0;
+}
+
+.social-list p {
+    text-align: right;
 }
